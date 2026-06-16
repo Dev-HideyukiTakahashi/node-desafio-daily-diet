@@ -4,7 +4,11 @@
   "description": "desafio 02 rocketseat - node",
   "main": "server.ts",
   "scripts": {
-    "dev": "tsx --watch ./src/server.ts"
+    "dev": "tsx --watch ./src/server.ts",
+    "knex": "node ./node_modules/knex/bin/cli.js",
+    "knex:make": "npm run knex -- migrate:make",
+    "knex:latest": "npm run knex -- migrate:latest",
+    "knex:rollback": "npm run knex -- migrate:rollback"
   },
   "keywords": [],
   "author": "",
