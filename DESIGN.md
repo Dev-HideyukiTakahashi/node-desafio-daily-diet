@@ -4,15 +4,15 @@ Este documento descreve a estrutura, rotas e regras de negócio da API.
 
 ## 📋 Requisitos / 🛣️ Rotas
 
-- [ ] Criar usuário
+- [x] Criar usuário
   - Usuários são identificados automaticamente via 'session_id' (armazenado em cookie) a cada requisição
-- [ ] Identificar o usuário entre as requisições
+- [x] Identificar o usuário entre as requisições
   - Identificação única do usuário via 'session_id' persistido em cookie.
 - [x] Registrar uma refeição feita
   - POST - /meals
 - [ ] Editar uma refeição
   - PUT - /meals
-- [ ] Apagar uma refeição
+- [x] Apagar uma refeição
   - DELETE - /meals
 - [x] Listar todas as refeições de um usuário
   - GET - /meals
@@ -21,7 +21,7 @@ Este documento descreve a estrutura, rotas e regras de negócio da API.
 - [ ] Recuperar as métricas de um usuário
   - GET - /meals/metrics
   - Retorna um objeto JSON contendo os quatro indicadores : **total, totalOnDiet, totalOffDiet, bestOnDietSequence**
-- [ ] O usuário só pode visualizar, editar e apagar as refeições
+- [x] O usuário só pode visualizar, editar e apagar as suas refeições
   - Tratar com session id
 
 ## 🗄️ Modelo de Dados
