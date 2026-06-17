@@ -10,7 +10,7 @@ Este documento descreve a estrutura, rotas e regras de negócio da API.
   - Identificação única do usuário via 'session_id' persistido em cookie.
 - [x] Registrar uma refeição feita
   - POST - /meals
-- [ ] Editar uma refeição
+- [x] Editar uma refeição
   - PUT - /meals
 - [x] Apagar uma refeição
   - DELETE - /meals
