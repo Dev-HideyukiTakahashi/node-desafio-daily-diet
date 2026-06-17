@@ -14,9 +14,9 @@ Este documento descreve a estrutura, rotas e regras de negócio da API.
   - PUT - /meals
 - [ ] Apagar uma refeição
   - DELETE - /meals
-- [ ] Listar todas as refeições de um usuário
+- [x] Listar todas as refeições de um usuário
   - GET - /meals
-- [ ] Visualizar uma única refeição
+- [x] Visualizar uma única refeição
   - GET - /meals/:id
 - [ ] Recuperar as métricas de um usuário
   - GET - /meals/metrics
