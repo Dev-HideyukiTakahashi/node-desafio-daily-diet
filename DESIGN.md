@@ -8,7 +8,7 @@ Este documento descreve a estrutura, rotas e regras de negócio da API.
   - Usuários são identificados automaticamente via 'session_id' (armazenado em cookie) a cada requisição
 - [ ] Identificar o usuário entre as requisições
   - Identificação única do usuário via 'session_id' persistido em cookie.
-- [ ] Registrar uma refeição feita
+- [x] Registrar uma refeição feita
   - POST - /meals
 - [ ] Editar uma refeição
   - PUT - /meals
