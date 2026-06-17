@@ -18,7 +18,7 @@ Este documento descreve a estrutura, rotas e regras de negócio da API.
   - GET - /meals
 - [x] Visualizar uma única refeição
   - GET - /meals/:id
-- [ ] Recuperar as métricas de um usuário
+- [x] Recuperar as métricas de um usuário
   - GET - /meals/metrics
   - Retorna um objeto JSON contendo os quatro indicadores : **total, totalOnDiet, totalOffDiet, bestOnDietSequence**
 - [x] O usuário só pode visualizar, editar e apagar as suas refeições
